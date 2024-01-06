@@ -8,7 +8,7 @@ Welcome to my GitHub profile! I'm a dedicated Data Scientist with a strong backg
 - 🎓 Currently pursuing a degree in Data Science at Pontificia Universidad Javeriana.
 - 💼 Experienced in Python, R, SQL, and various data analysis tools and techniques.
 - 📊 Passionate about transforming complex data sets into actionable insights.
-- 🌱 Continuously learning and growing my skill set through online platforms like DataCamp, TensorFlow, and more.
+- 🌱 Continuously learning and growing my skill set through online platforms.
 
 ### My Work
 Here, you'll find repositories showcasing my projects in data science and machine learning. From predictive analytics to deep learning models, each repository reflects my journey in this ever-evolving field.
