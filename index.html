@@ -1,275 +1,533 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Info -->
 <head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Hi">
-    <meta name="author" content="Me xd">
-    <title>Esteban´s Resume</title>
-    <!-- font icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <!-- Bootstrap + styles -->
-	<link rel="stylesheet" href="assets/css/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/imgs/hacker.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+<body>
 
-    <!-- Intro -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <h4 class="header-subtitle" >Welcom</h4>
-                <h1 class="header-title">Esteban</h1>
-                <h6 class="header-mono" >Data Scientist</h6>
-            </div>
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+    
+        <figure class="avatar-box">
+          <img src="assets/imgs/Me.png" alt="Esteban Castiblanco" width="80">
+        </figure>
+    
+        <div class="info-content">
+          <h1 class="name" title="Esteban Castiblanco">Esteban Castiblanco</h1>
+          <p class="title">Data Scientist and AI Engineer</p>
         </div>
-    </header>
-
-    <!-- Navigation -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-dark" data-spy="affix" data-offset-top="510">
-        <div class="container">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link text-white">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link text-white">About</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav brand">
-                    <img src="assets/imgs/avatar.jpg" alt="" class="brand-img">
-                    <li class="brand-txt">
-                        <h5 class="brand-title text-white">Esteban Castiblanco</h5>
-                        <div class="brand-subtitle text-white">Data Scientist</div>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="#resume" class="nav-link text-white">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#projects" class="nav-link text-white">Projects</a>
-                    </li>
-                </ul>
+    
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+    
+      </div>
+    
+      <div class="sidebar-info_more">
+    
+        <div class="separator"></div>
+    
+        <ul class="contacts-list">
+    
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
             </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:esteban.castiblanco24@gmail.com" class="contact-link">esteban.castiblanco24@gmail.com</a>
+            </div>
+          </li>
+    
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+573165892575" class="contact-link">+57 (316) 589-2575</a>
+            </div>
+          </li>
+    
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Bogotá, Colombia</address>
+            </div>
+          </li>
+    
+        </ul>
+    
+        <div class="separator"></div>
+    
+        <ul class="social-list">
+    
+          <li class="social-item">
+            <a href="https://www.instagram.com/yourusername" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+    
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/yourusername" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+    
+          <li class="social-item">
+            <a href="https://github.com/yourusername" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+    
+        </ul>
+    
+      </div>
+    
+    </aside>
+
+    
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Data Scientist with a passion for artificial intelligence and machine learning. I'm currently expanding my expertise to become an AI Engineer.
+            I enjoy leveraging data to solve complex problems and build intelligent systems that can drive meaningful insights.
+          </p>
+      
+          <p>
+            My goal is to create innovative solutions that are both efficient and impactful. I focus on making data-driven decisions that contribute to the success of projects. As I continue to grow in my career, I aim to apply my knowledge in AI to develop cutting-edge technologies that can make a difference.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+      
+          <h3 class="h3 service-title">What I'm Doing</h3>
+      
+          <ul class="service-list">
+      
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="assets/imgs/deep-learning.png" alt="Deep Learning icon" width="40">
+              </div>
+      
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Deep Learning</h4>
+      
+                <p class="service-item-text">
+                  Developing and fine-tuning deep learning models to solve complex problems, with a focus on neural networks and AI applications.
+                </p>
+              </div>
+            </li>
+      
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="assets/imgs/ai.png" alt="Generative AI icon" width="40">
+              </div>
+      
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Generative AI</h4>
+      
+                <p class="service-item-text">
+                  Exploring and implementing generative AI techniques to create innovative models that can generate new content and ideas.
+                </p>
+              </div>
+            </li>
+      
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="assets/imgs/nlp.png" alt="NLP icon" width="40">
+              </div>
+      
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Natural Language Processing</h4>
+      
+                <p class="service-item-text">
+                  Building and optimizing NLP models to analyze and understand human language, improving interactions between people and machines.
+                </p>
+              </div>
+            </li>
+      
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="assets/imgs/analytics.png" alt="Statistics icon" width="40">
+              </div>
+      
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Statistics and Data Analysis</h4>
+      
+                <p class="service-item-text">
+                  Applying statistical methods to analyze data and derive actionable insights, supporting data-driven decision-making.
+                </p>
+              </div>
+            </li>
+      
+          </ul>
+        </section>
+
+        
+
+      </article>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+      
+        <!-- Education Section -->
+        <section class="timeline">
+      
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+      
+            <h3 class="h3">Education</h3>
+          </div>
+      
+          <ol class="timeline-list">
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bachelor’s Degree in Data Science</h4>
+              <span>Javeriana University</span>
+              <span>2022 — 2025</span>
+              <p class="timeline-text">
+                Pursuing a degree in Data Science with a strong emphasis on statistics, complemented by programming skills and data analysis techniques.
+              </p>
+            </li>
+            
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Online Learning Platforms</h4>
+              <span>Ongoing</span>
+              <p class="timeline-text">
+                Learning from YouTube, freeCodeCamp, Coursera, and platforms such as GCP, Azure, and Amazon to enhance my skills in data science and cloud technologies.
+              </p>
+            </li>
+      
+          </ol>
+      
+        </section>
+      
+        <!-- Certifications Section -->
+        <section class="timeline">
+      
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="ribbon-outline"></ion-icon>
+            </div>
+      
+            <h3 class="h3">Certifications</h3>
+          </div>
+      
+          <ol class="timeline-list">
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">TensorFlow Developer Certification</h4>
+              <span>Google</span>
+              <p class="timeline-text">
+                Certified TensorFlow Developer with experience in building and deploying machine learning models.
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Google Master Certification (In Progress)</h4>
+              <span>Google</span>
+              <p class="timeline-text">
+                Currently working to obtain a master certification from Google.
+              </p>
+            </li>
+      
+          </ol>
+      
+        </section>
+      
+        <!-- Experience Section -->
+        <section class="timeline">
+      
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+      
+            <h3 class="h3">Experience</h3>
+          </div>
+      
+          <ol class="timeline-list">
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Personal Projects</h4>
+              <span>Ongoing</span>
+              <p class="timeline-text">
+                Working on various data science and machine learning projects that involve data preprocessing, model training, and deployment.
+              </p>
+            </li>
+      
+          </ol>
+      
+        </section>
+      
+        <!-- Skills Section -->
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My Skills</h3>
+
+          <div class="skills-list content-card">
+            <!-- Strong Statistics Skills -->
+            <div class="skill-category">
+              <h4 class="h4">Statistics</h4>
+              <ul>
+                <li>Probability Theory</li>
+                <li>Statistical Inference</li>
+                <li>Hypothesis Testing</li>
+                <li>Regression Analysis</li>
+                <li>Bayesian Statistics</li>
+              </ul>
+            </div>
+
+            <!-- Programming Languages -->
+            <div class="skill-category">
+              <h4 class="h4">Programming Languages</h4>
+              <ul>
+                <li>Python</li>
+                <li>R</li>
+                <li>SQL</li>
+              </ul>
+            </div>
+
+            <!-- Cloud Platforms -->
+            <div class="skill-category">
+              <h4 class="h4">Cloud Platforms</h4>
+              <ul>
+                <li>Google Cloud Platform (GCP)</li>
+                <li>Microsoft Azure</li>
+                <li>Amazon Web Services (AWS)</li>
+              </ul>
+            </div>
+
+            <!-- Tools & Frameworks -->
+            <div class="skill-category">
+              <h4 class="h4">Tools & Frameworks</h4>
+              <ul>
+                <li>TensorFlow</li>
+                <li>Keras</li>
+                <li>Scikit-learn</li>
+                <li>Pandas</li>
+                <li>NumPy</li>
+              </ul>
+            </div>
+
+            <!-- Databases -->
+            <div class="skill-category">
+              <h4 class="h4">Databases</h4>
+              <ul>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+
+            <!-- Machine Learning -->
+            <div class="skill-category">
+              <h4 class="h4">Machine Learning</h4>
+              <ul>
+                <li>Supervised Learning</li>
+                <li>Unsupervised Learning</li>
+                <li>Deep Learning</li>
+                <li>Natural Language Processing</li>
+                <li>Computer Vision</li>
+              </ul>
+            </div>
+          </div>
+
+        </section>
+
+
+      </article>
+      
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+      
+        <section class="projects">
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#" class="project-link" data-project="project-1">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="assets/imgs/Covid.png" alt="COVID-19 CT Scan Classification" loading="lazy">
+                </figure>
+                <h3 class="project-title">COVID-19 CT Scan Classification</h3>
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#" class="project-link" data-project="project-2">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="assets/imgs/Tenis.png" alt="Tennis Video Analysis" loading="lazy">
+                </figure>
+                <h3 class="project-title">Tennis Video Analysis</h3>
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#" class="project-link" data-project="project-3">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="assets/imgs/Neat.png" alt="NEAT-based Car Simulation" loading="lazy">
+                </figure>
+                <h3 class="project-title">NEAT-based Car Simulation</h3>
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      
+        <div id="project-modal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 class="modal-title">Project Title</h3>
+            <div class="modal-body">
+              <video class="modal-video" controls>
+                <source src="" type="video/mp4"> <!-- Ensure this is correct -->
+                Your browser does not support the video tag.
+              </video>
+              <p class="modal-description">Project description here...</p>
+              <a href="#" class="modal-github-link">View on GitHub</a>
+            </div>
+          </div>
         </div>
         
-    </nav>
-    
-    <!-- About Section -->
-    <div class="container-fluid bg-dark" id="about">
-        <hr class="bg-white" style="margin-top: 0;">
-        <div id="about" class="row about-section">
-            <!-- Who am I-->
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light text-white">Who am I?</h3>
-                <span class="line mb-5"></span>
-                <h5 class="mb-3 text-white">Data Scientist with a Passion for Unlocking Insights from Data</h5>
-                <p class="mt-20 text-white">Dedicated to exploring the fascinating world of data, I utilize advanced analytical techniques and machine learning to uncover hidden patterns and drive informed decision-making. My journey in data science is fueled by a relentless curiosity and a commitment to delivering impactful solutions.</p>                
-            </div>
+      
+      </article>
 
-            <!-- Personal Info-->
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light text-white">Personal Info</h3>
-                <span class="line mb-5"></span>
-                <ul class="mt40 info list-unstyled">
-                    <li class="text-white"><span class="text-white">Birthdate</span> : 24/02/2004</li>
-                    <li class="text-white"> <span class="text-white">Email</span> : esteban.castiblanco24@gmail.com</li>
-                    <li class="text-white"><span class="text-white">Phone</span> : + (57) 3194523750</li>
-                    <li class="text-white"><span class="text-white">Address</span> :  Bogotá, Colombia</li>
-                </ul>
-                <ul class="social-icons pt-3">
-                    <!-- GitHub -->
-                    <li class="social-item">
-                        <a class="social-link" href="https://github.com/Jesteban247">
-                            <i class="ti-github text-white" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <!-- LinkedIn -->
-                    <li class="social-item">
-                        <a class="social-link" href="https:www.linkedin.com/in/esteban-castiblanco-36b537230">
-                            <i class="ti-linkedin text-white" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <!-- Mail -->
-                    <li class="social-item">
-                        <a class="social-link" href="mailto:esteban.castiblanco24@gmail.com">
-                            <i class="ti-email text-white" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                </ul>
-                
-            </div>
+      
 
-            <!-- My Expertise-->
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light text-white">My Expertise</h3>
-                <span class="line mb-5"></span>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-bar-chart icon-lg text-white"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6 class="custom-text-color">Data Analysis</h6>
-                        <p class="subtitle text-white">Proficient in extracting actionable insights from complex data sets.</p>
-                        <hr class="bg-white">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-settings icon-lg text-white"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6 class="custom-text-color">Artificial Intelligence</h6>
-                        <p class="subtitle text-white">Specializing in Machine Learning, Deep Learning, and AI-driven data strategies.</p>
-                        <hr class="bg-white">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-pie-chart icon-lg text-white"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6 class="custom-text-color">Data Visualization</h6>
-                        <p class="subtitle text-white">Transforming data into visually appealing and understandable formats.</p>
-                        <hr class="bg-white">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-target icon-lg text-white"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6 class="custom-text-color">Marketing Analytics</h6>
-                        <p class="subtitle text-white">Leveraging data to drive marketing strategies and decisions.</p>
-                        <hr class="bg-white">
-                    </div>
-                </div>
-                
-            </div>
-        </div>
     </div>
 
-
-    <!--Resume Section-->
-    <section class="section bg-dark"  id="resume">
-        <div class="container">
-            <h2 class="text-white mb-5"><span class="text-danger">My</span> Resume</h2>
-            <div class="row">
-                <!--Education-->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card bg-dark text-white">
-                        <div class="card-header">
-                            <div class="mt-2">
-                                <h4>Education</h4>
-                                <span class="line text-white"></span> 
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h6 class="title text-danger">2022 - Present</h6>
-                            <p class="text-white">Data Science Program</p>
-                            <p class="text-white subtitle">Currently pursuing a career in Data Science at Pontificia Universidad Javeriana. Focused on machine learning, statistical analysis, and big data technologies.</p>
-                            <hr>
-                            <h6 class="title text-danger">Ongoing</h6>
-                            <p class="text-white">Self-Learning and Online Courses</p>
-                            <p class="text-white subtitle">Enhancing skills through online platforms like YouTube, FreeCodeCamp, TensorFlow, and DataCamp. Gaining practical experience in various aspects of data science and machine learning from industry-leading resources.</p>
-                            <hr>
-                            <h6 class="title text-danger">2024</h6>
-                            <p class="text-white">TensorFlow Developer Certificate</p>
-                            <p class="text-white subtitle">Certified TensorFlow Developer by completing the TensorFlow Developer Certificate program, demonstrating proficiency in designing, building, training, and deploying machine learning models using TensorFlow.</p>
-                        </div>                        
-                    </div>
-                </div>
-
-                <!--Expertise-->
-                <div class="col-md-6 col-lg-8">
-                    <div class="card bg-dark text-white">
-                        <div class="card-header">
-                            <div class="mt-2">
-                                <h4>Expertise</h4>
-                                <span class="line text-white"></span>  
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-unstyled">
-                                <li>
-                                    <h6 class="custom-text-color"> Data Analysis</h6>
-                                    <p class="text-white">Proficient in extracting actionable insights from complex data sets.</p>
-                                </li>
-                                <li>
-                                    <h6 class="custom-text-color"> Machine Learning</h6>
-                                    <p class="text-white">Specializing in machine learning algorithms, model development, and deployment.</p>
-                                </li>
-                                <li>
-                                    <h6 class="custom-text-color"> Data Visualization</h6>
-                                    <p class="text-white">Skilled in transforming data into visually appealing and understandable formats.</p>
-                                </li>
-                                <li>
-                                    <h6 class="custom-text-color"> Cloud Platforms</h6>
-                                    <p class="text-white">Experience with cloud services such as AWS, Azure and Google Cloud Platform for scalable and efficient data processing.</p>
-                                </li>
-                                <li>
-                                    <h6 class="custom-text-color"> Databases</h6>
-                                    <p class="text-white">Proficient in SQL and NoSQL databases for data storage and retrieval.</p>
-                                </li>
-                                <li>
-                                    <h6 class="custom-text-color"> Programming Languages</h6>
-                                    <p class="text-white">Strong proficiency in Python and R for data analysis, modeling, and automation.</p>
-                                </li>
-                                <li>
-                                    <h6 class="custom-text-color"> Mathematics</h6>
-                                    <p class="text-white">Solid understanding of mathematical concepts including linear algebra, calculus, and probability theory.</p>
-                                </li>
-                            </ul>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-    </section>
-
-    <!-- White line -->
-    <div class="bg-white" style="height: 2px;"></div>
-
-
-    <!-- Projects Section -->
-    <section class="section bg-dark" id="projects" >
-        <div class="container">
-            <h2 class="mb-5 pb-4 text-white"><span class="text-danger">My</span> Projects</h2>
-            <div class="row">
-                <!-- Introduction -->
-                <div class="col-md-12">
-                    <p class="text-white mb-4">I'm currently working on several personal projects to enhance my skills and contribute to the community. These projects include "Hands-On Guide to Machine Learning," a comprehensive resource for beginners, and a "Soccer Computer Vision Project" aimed at analyzing soccer games. Stay tuned for more projects, which will be available on my GitHub repository.</p>
-                </div>
-               
-            </div>
-        </div>
-    </section>
+  </main>
 
 
 
-    <!-- Footer -->
-    <footer class="footer py-3">
-        <div class="container">
-            <p class="small mb-0 text-light">
-                &copy; <script>document.write(new Date().getFullYear())</script> Created By Esteban Castiblanco
-            </p>
-        </div>
-    </footer>
 
-	<!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
-    <!-- bootstrap 3 affix -->
-    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-    <!-- Isotope  -->
-    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
 
-    <!-- styles js -->
-    <script src="assets/js/styles.js"></script>
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+
 </html>
