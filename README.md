@@ -4,8 +4,10 @@
 ## 🌱 I’m Currently Learning
 I'm expanding my expertise to become an AI Engineer, focusing on Generative AI and related technologies.
 
-## 📂 My Projects
-You can find my projects on [GitHub](https://github.com/jesteban247) and on my [website](https://jesteban247.github.io/Jesteban247/).
+## 📂 My Website
+
+Learn more about me and explore my work on my [website](https://jesteban247.github.io/Jesteban247/). Feel free to dive in and see what I’m up to!
+
 
 ## 📫 How to Reach Me
 You can contact me via email: [esteban.castiblanco24@gmail.com](mailto:esteban.castiblanco24@gmail.com)
