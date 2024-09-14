@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Esteban Castiblanco</h1>
-<h3 align="center">Welcome to my data science playground on GitHub and my personal website. I'm Esteban, a data science student passionate about AI and machine learning. 💻 I'm constantly exploring new techniques, building models, and diving deep into data.</h3>
+<h3 align="center">Welcome to my data science playground on GitHub and my personal website. I'm Esteban, a Data Scientist passionate about AI and machine learning. 💻 I'm constantly exploring new techniques, building models, and diving deep into data.</h3>
 
 ## 🌱 I’m Currently Learning
 I'm expanding my expertise to become an AI Engineer, focusing on Generative AI and related technologies.
