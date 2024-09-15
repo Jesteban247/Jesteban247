@@ -3,26 +3,28 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <meta name="description" content="Personal portfolio of Esteban, showcasing projects and skills">
+  <title>Personal Portfolio</title>
 
-  <!--
-    - favicon
-  -->
+  <!-- Favicon -->
+  <link rel="preload" href="assets/imgs/hacker.png" as="image">
   <link rel="shortcut icon" href="assets/imgs/hacker.png" type="image/x-icon">
 
-  <!--
-    - custom css link
-  -->
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" as="style">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Fallback Font -->
+  <style>
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+    }
+  </style>
 </head>
 
 <body>
@@ -37,91 +39,92 @@
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+      <aside class="sidebar" data-sidebar>
 
-      <div class="sidebar-info">
-    
-        <figure class="avatar-box">
-          <img src="assets/imgs/Me.png" alt="Esteban Castiblanco" width="80">
-        </figure>
-    
-        <div class="info-content">
-          <h1 class="name" title="Esteban Castiblanco">Esteban Castiblanco</h1>
-          <p class="title">Data Scientist and AI Engineer</p>
+        <div class="sidebar-info">
+
+          <figure class="avatar-box">
+            <img src="assets/imgs/Me.png" alt="Esteban Castiblanco" width="80">
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Esteban Castiblanco">Esteban Castiblanco</h1>
+            <p class="title">Data Scientist and AI Engineer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+
         </div>
-    
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-    
-      </div>
-    
-      <div class="sidebar-info_more">
-    
-        <div class="separator"></div>
-    
-        <ul class="contacts-list">
-    
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-              <a href="mailto:esteban.castiblanco24@gmail.com" class="contact-link">esteban.castiblanco24@gmail.com</a>
-            </div>
-          </li>
-    
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-              <a href="tel:+573165892575" class="contact-link">+57 (316) 589-2575</a>
-            </div>
-          </li>
-    
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-              <address>Bogotá, Colombia</address>
-            </div>
-          </li>
-    
-        </ul>
-    
-        <div class="separator"></div>
-    
-        <ul class="social-list">
-    
-          <li class="social-item">
-            <a href="https://www.instagram.com/yourusername" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-    
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/yourusername" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-    
-          <li class="social-item">
-            <a href="https://github.com/yourusername" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-    
-        </ul>
-    
-      </div>
-    
-    </aside>
+
+        <div class="sidebar-info_more">
+
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:esteban.castiblanco24@gmail.com" class="contact-link">esteban.castiblanco24@gmail.com</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+                <a href="tel:+573165892575" class="contact-link">+57 (316) 589-2575</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Bogotá, Colombia</address>
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+
+            <li class="social-item">
+              <a href="https://www.instagram.com/jesteban_247" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/esteban-castiblanco-36b537230" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/Jesteban247" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </aside>
+
 
     
 
@@ -131,10 +134,8 @@
 
     <div class="main-content">
 
-      <!--
-        - #NAVBAR
-      -->
 
+      <!-- #NAVBAR-->
       <nav class="navbar">
 
         <ul class="navbar-list">
@@ -156,161 +157,155 @@
       </nav>
 
 
-
-      <!--
-        - #ABOUT
-      -->
-
+      <!-- #ABOUT -->
       <article class="about active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title">About Me</h2>
         </header>
 
+        <!-- About Text -->
         <section class="about-text">
           <p>
-            I'm a Data Scientist with a passion for artificial intelligence and machine learning. I'm currently expanding my expertise to become an AI Engineer.
-            I enjoy leveraging data to solve complex problems and build intelligent systems that can drive meaningful insights.
+            I'm a Data Scientist with a passion for artificial intelligence and machine learning. Currently, I'm expanding my expertise to become an AI Engineer.
+            I enjoy leveraging data to solve complex problems and build intelligent systems that drive meaningful insights.
           </p>
-      
+
           <p>
-            My goal is to create innovative solutions that are both efficient and impactful. I focus on making data-driven decisions that contribute to the success of projects. As I continue to grow in my career, I aim to apply my knowledge in AI to develop cutting-edge technologies that can make a difference.
+            My goal is to create innovative, efficient, and impactful solutions. I focus on making data-driven decisions that contribute to the success of projects.
+            As I continue to grow in my career, I aim to apply my knowledge in AI to develop cutting-edge technologies that can make a difference.
           </p>
         </section>
 
-        <!--
-          - service
-        -->
-
+        <!-- Services -->
         <section class="service">
-      
           <h3 class="h3 service-title">What I'm Doing</h3>
-      
+
           <ul class="service-list">
-      
+
+            <!-- Deep Learning -->
             <li class="service-item">
               <div class="service-icon-box">
                 <img src="assets/imgs/deep-learning.png" alt="Deep Learning icon" width="40">
               </div>
-      
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Deep Learning</h4>
-      
                 <p class="service-item-text">
                   Developing and fine-tuning deep learning models to solve complex problems, with a focus on neural networks and AI applications.
                 </p>
               </div>
             </li>
-      
+
+            <!-- Generative AI -->
             <li class="service-item">
               <div class="service-icon-box">
                 <img src="assets/imgs/ai.png" alt="Generative AI icon" width="40">
               </div>
-      
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Generative AI</h4>
-      
                 <p class="service-item-text">
-                  Exploring and implementing generative AI techniques to create innovative models that can generate new content and ideas.
+                  Exploring and implementing generative AI techniques to create innovative models that generate new content and ideas.
                 </p>
               </div>
             </li>
-      
+
+            <!-- NLP -->
             <li class="service-item">
               <div class="service-icon-box">
                 <img src="assets/imgs/nlp.png" alt="NLP icon" width="40">
               </div>
-      
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Natural Language Processing</h4>
-      
                 <p class="service-item-text">
                   Building and optimizing NLP models to analyze and understand human language, improving interactions between people and machines.
                 </p>
               </div>
             </li>
-      
+
+            <!-- Computer Vision (New Section) -->
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="assets/imgs/computer-vision.png" alt="Computer Vision icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Computer Vision</h4>
+                <p class="service-item-text">
+                  Designing and implementing computer vision algorithms to enable systems to understand and interpret visual data, powering applications like object detection and image classification.
+                </p>
+              </div>
+            </li>
+
+            <!-- Statistics & Data Analysis -->
             <li class="service-item">
               <div class="service-icon-box">
                 <img src="assets/imgs/analytics.png" alt="Statistics icon" width="40">
               </div>
-      
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Statistics and Data Analysis</h4>
-      
                 <p class="service-item-text">
                   Applying statistical methods to analyze data and derive actionable insights, supporting data-driven decision-making.
                 </p>
               </div>
             </li>
-      
+
           </ul>
         </section>
-
-        
 
       </article>
 
 
-
-      <!--
-        - #RESUME
-      -->
-
+      <!-- #RESUME -->
       <article class="resume" data-page="resume">
 
         <header>
           <h2 class="h2 article-title">Resume</h2>
         </header>
-      
+
         <!-- Education Section -->
         <section class="timeline">
-      
+
           <div class="title-wrapper">
             <div class="icon-box">
               <ion-icon name="book-outline"></ion-icon>
             </div>
-      
             <h3 class="h3">Education</h3>
           </div>
-      
+
           <ol class="timeline-list">
-      
+
             <li class="timeline-item">
               <h4 class="h4 timeline-item-title">Bachelor’s Degree in Data Science</h4>
               <span>Javeriana University</span>
               <span>2022 — 2025</span>
               <p class="timeline-text">
-                Pursuing a degree in Data Science with a strong emphasis on statistics, complemented by programming skills and data analysis techniques.
+                Degree in Data Science with a strong emphasis on statistics, complemented by programming skills and data analysis techniques.
               </p>
             </li>
-            
-      
+
             <li class="timeline-item">
               <h4 class="h4 timeline-item-title">Online Learning Platforms</h4>
               <span>Ongoing</span>
               <p class="timeline-text">
-                Learning from YouTube, freeCodeCamp, Coursera, and platforms such as GCP, Azure, and Amazon to enhance my skills in data science and cloud technologies.
+                Learning from YouTube, freeCodeCamp, Coursera, and platforms such as GCP, Azure, and AWS to enhance my skills in data science and cloud technologies.
               </p>
             </li>
-      
+
           </ol>
-      
+
         </section>
-      
+
         <!-- Certifications Section -->
         <section class="timeline">
-      
+
           <div class="title-wrapper">
             <div class="icon-box">
               <ion-icon name="ribbon-outline"></ion-icon>
             </div>
-      
             <h3 class="h3">Certifications</h3>
           </div>
-      
+
           <ol class="timeline-list">
-      
+
             <li class="timeline-item">
               <h4 class="h4 timeline-item-title">TensorFlow Developer Certification</h4>
               <span>Google</span>
@@ -318,7 +313,7 @@
                 Certified TensorFlow Developer with experience in building and deploying machine learning models.
               </p>
             </li>
-      
+
             <li class="timeline-item">
               <h4 class="h4 timeline-item-title">Google Master Certification (In Progress)</h4>
               <span>Google</span>
@@ -326,42 +321,51 @@
                 Currently working to obtain a master certification from Google.
               </p>
             </li>
-      
+
           </ol>
-      
+
         </section>
-      
+
         <!-- Experience Section -->
         <section class="timeline">
-      
+
           <div class="title-wrapper">
             <div class="icon-box">
               <ion-icon name="briefcase-outline"></ion-icon>
             </div>
-      
             <h3 class="h3">Experience</h3>
           </div>
-      
+
           <ol class="timeline-list">
-      
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Teaching Assistant</h4>
+              <span>Javeriana University</span>
+              <span>January 2023 — June 2024</span>
+              <p class="timeline-text">
+                Assisted professors with course management and provided programming support to students by resolving their doubts and clarifying concepts.
+              </p>
+            </li>
+
             <li class="timeline-item">
               <h4 class="h4 timeline-item-title">Personal Projects</h4>
               <span>Ongoing</span>
               <p class="timeline-text">
-                Working on various data science and machine learning projects that involve data preprocessing, model training, and deployment.
+                Working on various data science and machine learning projects involving data preprocessing, model training, and deployment.
               </p>
             </li>
-      
+
           </ol>
-      
+
         </section>
-      
+
         <!-- Skills Section -->
         <section class="skill">
 
           <h3 class="h3 skills-title">My Skills</h3>
 
           <div class="skills-list content-card">
+
             <!-- Strong Statistics Skills -->
             <div class="skill-category">
               <h4 class="h4">Statistics</h4>
@@ -427,27 +431,28 @@
                 <li>Computer Vision</li>
               </ul>
             </div>
+
           </div>
 
         </section>
 
-
       </article>
-      
 
 
-      <!--
-        - #PORTFOLIO
-      -->
 
+      <!-- #PORTFOLIO -->
       <article class="portfolio" data-page="portfolio">
         <header>
           <h2 class="h2 article-title">Portfolio</h2>
         </header>
-      
+
         <section class="projects">
           <ul class="project-list">
-            <li class="project-item active" data-filter-item data-category="applications">
+
+            <!-- Existing Projects -->
+
+            <!-- COVID-19 CT Scan Classification -->
+            <li class="project-item active" data-filter-item data-category="computer-vision">
               <a href="#" class="project-link" data-project="project-1">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -456,11 +461,12 @@
                   <img src="assets/imgs/Covid.png" alt="COVID-19 CT Scan Classification" loading="lazy">
                 </figure>
                 <h3 class="project-title">COVID-19 CT Scan Classification</h3>
-                <p class="project-category">Applications</p>
+                <p class="project-category">Computer Vision</p>
               </a>
             </li>
-      
-            <li class="project-item active" data-filter-item data-category="applications">
+
+            <!-- Tennis Video Analysis -->
+            <li class="project-item active" data-filter-item data-category="computer-vision">
               <a href="#" class="project-link" data-project="project-2">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -469,11 +475,12 @@
                   <img src="assets/imgs/Tenis.png" alt="Tennis Video Analysis" loading="lazy">
                 </figure>
                 <h3 class="project-title">Tennis Video Analysis</h3>
-                <p class="project-category">Applications</p>
+                <p class="project-category">Computer Vision</p>
               </a>
             </li>
-      
-            <li class="project-item active" data-filter-item data-category="applications">
+
+            <!-- NEAT-based Car Simulation -->
+            <li class="project-item active" data-filter-item data-category="ml-models">
               <a href="#" class="project-link" data-project="project-3">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -482,12 +489,71 @@
                   <img src="assets/imgs/Neat.png" alt="NEAT-based Car Simulation" loading="lazy">
                 </figure>
                 <h3 class="project-title">NEAT-based Car Simulation</h3>
-                <p class="project-category">Applications</p>
+                <p class="project-category">ML Models</p>
               </a>
             </li>
+
+            <!-- New Projects -->
+
+            <!-- Fine-Tuning LLaMA-Factory with Math Dataset -->
+            <li class="project-item active" data-filter-item data-category="ml-models">
+              <a href="#" class="project-link" data-project="project-4">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="assets/imgs/llama.png" alt="Fine-Tuning LLaMA-Factory with Math Dataset" loading="lazy">
+                </figure>
+                <h3 class="project-title">Fine-Tuning LLaMA-Factory with Math Dataset</h3>
+                <p class="project-category">ML Models</p>
+              </a>
+            </li>
+
+            <!-- AI-Driven Gym and Nutrition Workflow -->
+            <li class="project-item active" data-filter-item data-category="generative-ai">
+              <a href="#" class="project-link" data-project="project-5">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="assets/imgs/GymNutrition.png" alt="AI-Driven Gym and Nutrition Workflow" loading="lazy">
+                </figure>
+                <h3 class="project-title">AI-Driven Gym and Nutrition Workflow</h3>
+                <p class="project-category">Generative AI</p>
+              </a>
+            </li>
+
+            <!-- AI-Powered PDF & Image Processor -->
+            <li class="project-item active" data-filter-item data-category="generative-ai">
+              <a href="#" class="project-link" data-project="project-6">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="assets/imgs/PDFImage.png" alt="AI-Powered PDF & Image Processor" loading="lazy">
+                </figure>
+                <h3 class="project-title">AI-Powered PDF & Image Processor</h3>
+                <p class="project-category">Generative AI</p>
+              </a>
+            </li>
+
+            <!-- RAG Project: Harry Potter Edition -->
+            <li class="project-item active" data-filter-item data-category="ml-models">
+              <a href="#" class="project-link" data-project="project-7">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="assets/imgs/HarryPotter.png" alt="RAG Project: Harry Potter Edition" loading="lazy">
+                </figure>
+                <h3 class="project-title">RAG Project: Harry Potter Edition</h3>
+                <p class="project-category">ML Models</p>
+              </a>
+            </li>
+
           </ul>
         </section>
-      
+
         <div id="project-modal" class="modal">
           <div class="modal-content">
             <span class="close">&times;</span>
@@ -502,8 +568,7 @@
             </div>
           </div>
         </div>
-        
-      
+
       </article>
 
       
