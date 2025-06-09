@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <!-- ========================= SIDEBAR ========================= -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Esteban Castiblanco">Esteban<br>Castiblanco</h1>
+          <p class="title">Data Scientist | ML-AI Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+      <div class="separator"></div>
+
+      <ul class="contacts-list">
+
+      <li class="contact-item">
+      <div class="icon-box">
+        <ion-icon name="mail-outline"></ion-icon>
+      </div>
+      <div class="contact-info">
+        <p class="contact-title">Email</p>
+        <a href="mailto:esteban.castiblanco24@gmail.com" class="contact-link">esteban.castiblanco24@gmail.com</a>
+      </div>
+      </li>
+
+      <li class="contact-item">
+      <div class="icon-box">
+        <ion-icon name="phone-portrait-outline"></ion-icon>
+      </div>
+      <div class="contact-info">
+        <p class="contact-title">Phone</p>
+        <a href="tel:+573165892575" class="contact-link">+57 (316) 589-2575</a>
+      </div>
+      </li>
+
+      <li class="contact-item">
+      <div class="icon-box">
+        <ion-icon name="location-outline"></ion-icon>
+      </div>
+      <div class="contact-info">
+        <p class="contact-title">Location</p>
+        <address>Bogotá, Colombia</address>
+      </div>
+      </li>
+
+      </ul>
+
+      <div class="separator"></div>
+
+      <ul class="social-list">
+
+      <li class="social-item">
+      <a href="https://www.instagram.com/jesteban_247" class="social-link">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+      </li>
+
+      <li class="social-item">
+      <a href="https://www.linkedin.com/in/esteban-castiblanco-36b537230" class="social-link">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+      </li>
+
+      <li class="social-item">
+      <a href="https://github.com/Jesteban247" class="social-link">
+        <ion-icon name="logo-github"></ion-icon>
+      </a>
+      </li>
+
+      </ul>
+
+      </div>
+
+    </aside>
+
+    <!-- ========================= MAIN CONTENT ========================= -->
+
+    <div class="main-content">
+
+      <!-- ========================= NAVBAR ========================= -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+      <!-- ========================= ABOUT SECTION ========================= -->
+
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            I am a Data Scientist and ML-AI Engineer with a strong foundation in statistics, programming, and data analysis. My expertise spans the development and deployment of advanced machine learning models, including deep learning, natural language processing, and computer vision solutions.
+          </p>
+          <p>
+            I am passionate about leveraging data-driven approaches to solve real-world problems and deliver impactful results. My focus is on building robust, scalable, and innovative AI systems that drive business value and support informed decision-making. I am committed to continuous learning and staying at the forefront of emerging technologies in the field of artificial intelligence.
+          </p>
+        </section>
+        <section class="service">
+          <h3 class="h3 service-title">What I'm Doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons/img_1.png" alt="Deep Learning icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Deep Learning</h4>
+                <p class="service-item-text">
+                  Developing and fine-tuning deep learning models, including LLMs, to solve complex problems and power AI applications.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons/img_2.png" alt="Generative AI icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Generative AI</h4>
+                <p class="service-item-text">
+                  Creating generative AI solutions for text, audio, and images, enabling automation, content generation, and workflow optimization.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons/img_3.png" alt="Agents icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Agents</h4>
+                <p class="service-item-text">
+                  Designing, building, and deploying autonomous agents for workflow automation, orchestration, and decision support across language, vision, and audio tasks.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons/img_4.png" alt="NLP icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Natural Language Processing</h4>
+                <p class="service-item-text">
+                  Building and optimizing NLP models to analyze and understand human language, including chatbots and text analytics.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons/img_5.png" alt="Computer Vision icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Computer Vision</h4>
+                <p class="service-item-text">
+                  Designing and implementing computer vision algorithms for tasks like object detection, image classification, and video analysis.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons/img_6.png" alt="Statistics icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Statistics & Data Analysis</h4>
+                <p class="service-item-text">
+                  Applying statistical methods and data analysis to extract insights, support decision-making, and validate machine learning models.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons/img_7.png" alt="Machine Learning icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+                <p class="service-item-text">
+                  Understanding and applying core ML concepts, including supervised and unsupervised learning, model evaluation, and deployment.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- ========================= RESUME SECTION ========================= -->
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Teaching Assistant</h4>
+              <span>Javeriana University<br>January 2023 — June 2024</span>
+              <p class="timeline-text">
+                Assisted professors with course management and provided programming support to students by resolving their doubts and clarifying concepts.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">ML-AI Engineer</h4>
+              <span>IBM<br>January 2025 — Present</span>
+              <ul class="timeline-bullets">
+                <li>Building and deploying advanced AI solutions, including the development of a production-ready chatbot using LangChain, integrating memory, tools, and FastAPI endpoints for seamless user interaction.</li>
+                <li>Leveraging high-performance computing clusters with NVIDIA GPUs to accelerate inference and training of open-source models from Hugging Face, focusing on NLP and ML tasks that benefit from parallelization and GPU optimization.</li>
+                <li>Responsible for designing scalable architectures, managing model deployment pipelines, and collaborating with cross-functional teams to deliver robust AI-driven applications.</li>
+                <li>Gained hands-on experience in optimizing model performance, handling large-scale data, and implementing best practices for MLOps in enterprise environments.</li>
+              </ul>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Personal Projects</h4>
+              <span>Ongoing</span>
+              <p class="timeline-text">
+                Working on various data science and machine learning projects involving data preprocessing, model training, and deployment.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bachelor’s Degree in Data Science</h4>
+              <span>Javeriana University<br>2022 — 2025</span>
+              <p class="timeline-text">
+                Degree in Data Science with a strong emphasis on statistics, complemented by programming skills and data analysis techniques.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Master’s Degree in Artificial Intelligence</h4>
+              <span>Javeriana University<br>2025 — 2026</span>
+              <p class="timeline-text">
+                Currently pursuing a master's degree focused on advanced artificial intelligence, machine learning, and deep learning methodologies.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Online Learning Platforms</h4>
+              <span>Ongoing</span>
+              <p class="timeline-text">
+                Learning from YouTube, freeCodeCamp, Coursera, and platforms such as GCP, Azure, and AWS to enhance my skills in data science and cloud technologies.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="ribbon-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Certifications</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">IBM Machine Learning Specialist - Advanced</h4>
+              <span>IBM</span>
+              <p class="timeline-text">
+          Advanced certification in machine learning, covering model development, evaluation, and deployment using IBM tools and platforms.
+          <br>
+          <a href="https://www.credly.com/badges/b1b88730-f72e-44b3-9f67-5c2c78060867/linked_in_profile" target="_blank" class="credential-link">View Credential</a>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Fundamentals of Accelerated Computing with CUDA Python</h4>
+              <span>NVIDIA</span>
+              <p class="timeline-text">
+          Completed coursework on accelerated computing concepts and GPU programming with CUDA Python.
+          <br>
+          <a href="https://learn.nvidia.com/certificates?id=MUTV2AW2TeqAy4dHb1dCZg" target="_blank" class="credential-link">View Credential</a>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Machine Learning Specialization</h4>
+              <span>Stanford University - DeepLearning.AI</span>
+              <p class="timeline-text">
+          Specialization covering supervised, unsupervised, and deep learning, taught by Andrew Ng and DeepLearning.AI.
+          <br>
+          <a href="https://www.coursera.org/account/accomplishments/specialization/WLWYU413QZQB" target="_blank" class="credential-link">View Credential</a>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">TensorFlow Developer Certificate</h4>
+              <span>TensorFlow Certificate Program</span>
+              <p class="timeline-text">
+          Certified TensorFlow Developer with experience in building and deploying machine learning models.
+          <br>
+          <a href="https://www.credential.net/6009a397-62e1-4129-aa92-f14e6f81b688#acc.VjJeihRg" target="_blank" class="credential-link">View Credential</a>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Hugging Face Agents Course</h4>
+              <span>Hugging Face</span>
+              <p class="timeline-text">
+            Completed Hugging Face Agents course, focusing on building and deploying AI agents using Hugging Face tools.
+            <br>
+            <a href="assets/files/huggingface_agents.pdf" target="_blank" class="credential-link">
+            View Certificate (PDF)
+            </a>
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skill">
+            <h3 class="h3 service-title">My Skills</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Generative AI</h4>
+                  <ul class="service-bullets">
+                    <li>LLMs</li>
+                    <li>VLMs</li>
+                    <li>Image generation (GANs, diffusion: SD, DDPMs)</li>
+                    <li>Text-to-audio & audio-to-text</li>
+                    <li>Fine-tuning (LLaMA-Factory, Unsloth, PEFT)</li>
+                    <li>Prompt engineering</li>
+                    <li>RAG</li>
+                    <li>LangChain</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">NLP</h4>
+                  <ul class="service-bullets">
+                    <li>Embeddings</li>
+                    <li>Text classification</li>
+                    <li>NER (Named Entity Recognition)</li>
+                    <li>Information extraction</li>
+                    <li>Summarization</li>
+                    <li>Translation</li>
+                    <li>Question answering</li>
+                    <li>Chatbots</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Science</h4>
+                  <ul class="service-bullets">
+                    <li>Data visualization</li>
+                    <li>Feature engineering</li>
+                    <li>EDA</li>
+                    <li>Statistical modeling</li>
+                    <li>Data cleaning & preprocessing</li>
+                    <li>Hypothesis testing</li>
+                    <li>Time series analysis</li>
+                    <li>Experiment design</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">MLOps & Deployment</h4>
+                  <ul class="service-bullets">
+                    <li>CI/CD</li>
+                    <li>APIs</li>
+                    <li>Docker</li>
+                    <li>Model monitoring</li>
+                    <li>Versioning</li>
+                    <li>Pipeline automation</li>
+                    <li>Model evaluation</li>
+                    <li>ETL</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Cloud (Learning)</h4>
+                  <ul class="service-bullets">
+                    <li>GCP</li>
+                    <li>Azure</li>
+                    <li>AWS</li>
+                    <li>Cloud ML workflows</li>
+                    <li>Cloud storage</li>
+                    <li>Data management</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">High Performance Computing (HPC)</h4>
+                  <ul class="service-bullets">
+                    <li>NVIDIA GPUs</li>
+                    <li>Distributed training</li>
+                    <li>Parallel computing</li>
+                    <li>Cluster management</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+        </section>
+
+      </article>
+
+      <!-- ========================= PROJECTS SECTION ========================= -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects-section">
+
+          <ul class="filter-list">
+        <li class="filter-item">
+          <button class="active" data-filter-btn>All</button>
+        </li>
+          </ul>
+
+          <div class="filter-select-box" style="display:none;">
+        <button class="filter-select" data-select>
+          <div class="select-value" data-selecct-value>Select category</div>
+          <div class="select-icon">
+            <ion-icon name="chevron-down"></ion-icon>
+          </div>
+        </button>
+        <ul class="select-list">
+          <li class="select-item">
+            <button data-select-item>All</button>
+          </li>
+        </ul>
+          </div>
+
+          <ul class="project-list">
+        <li class="project-item active" data-filter-item data-category="all">
+          <a href="#">
+            <figure class="project-img">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+          <img src="./assets/images/project-1.jpg" alt="Under Construction" loading="lazy">
+            </figure>
+            <h3 class="project-title">🚧 Under Construction 🚧</h3>
+            <p class="project-category">
+          My projects section is being rebuilt to showcase my best work.<br>
+          Please check back soon!
+            </p>
+          </a>
+        </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!-- ========================= END MAIN CONTENT ========================= -->
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
